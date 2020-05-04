@@ -5,6 +5,7 @@ import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 import org.glassfish.jersey.media.multipart.FormDataParam;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.MediaType;
@@ -29,12 +30,11 @@ public class VideoUploaderResource {
 
     }
 
-//    @GET
-//    @Path("videos/uploader")
-////    @Secured
-//    public String getUploadURL(@FormDataParam("apiKey") String apiKey,@FormDataParam("customerEmail") String customerEmail) {
-////        generate unique video id
-////        insert into table with user id
-////        return "videoID"
-//    }
+    @GET
+    @Path("videos/uploader")
+    public String getUploadURL(@FormDataParam("apiKey") String apiKey, @FormDataParam("customerEmail") String customerEmail) {
+//        generate unique video id
+//        insert into table with user id
+        return "videoID";
+    }
 }
