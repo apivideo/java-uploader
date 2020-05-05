@@ -5,7 +5,7 @@ CREATE TABLE admins (
 
 CREATE TABLE videos (
     id         SERIAL PRIMARY KEY,
-    unique_url TEXT NOT NULL,
+    unique_url TEXT UNIQUE NOT NULL,
     client_tag TEXT NOT NULL
 );
 

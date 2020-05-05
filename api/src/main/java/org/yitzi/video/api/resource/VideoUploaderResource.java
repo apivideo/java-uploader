@@ -3,6 +3,8 @@ package org.yitzi.video.api.resource;
 import org.glassfish.jersey.media.multipart.FormDataBodyPart;
 import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 import org.glassfish.jersey.media.multipart.FormDataParam;
+import org.yitzi.video.core.access.VideoAccess;
+import org.yitzi.video.core.util.StringUtils;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -30,8 +32,11 @@ public class VideoUploaderResource {
     @GET
     @Path("/uploader")
     public String getUploadURL(@QueryParam("api_key") String apiKey, @QueryParam("customer_email") String customerEmail) {
-//        generate unique video id
-//        insert into table with user id
-        return "videoID";
+        String url = StringUtils.generateUniqueString();
+        VideoAccess videoAccess = VideoAccess.getInstance();
+        int adminID = videoAccess.upsertAdmin(apiKey);
+        int placeHolderID = videoAccess.insertVideoPlaceHolder(url, customerEmail);
+        videoAccess.insertAdminVideoRelationship(adminID, placeHolderID);
+        return url;
     }
 }
