@@ -23,7 +23,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="video_api@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="video_api@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="video_api@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="video_api: database" type="162271b6:PgImplModel$Database" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -71,8 +87,145 @@
       <recent name="D:\emesd\Documents\Github\jvideo\www\src\main" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Tomcat 7.0.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.www">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_jvideo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58304" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="api" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="api:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_jvideo_2" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58304" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="api:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="www" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="www:war exploded">
@@ -144,73 +297,16 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_jvideo" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58304" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.www" />
+      <item itemvalue="Tomcat Server.api" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.09264978" />
           <treeState>
             <expand>
               <path>
@@ -221,15 +317,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="video_api@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -250,6 +337,8 @@
       <updated>1588511150559</updated>
       <workItem from="1588511153623" duration="6269000" />
       <workItem from="1588580007447" duration="4979000" />
+      <workItem from="1588682148291" duration="2725000" />
+      <workItem from="1588684933502" duration="3223000" />
     </task>
     <servers />
   </component>
@@ -265,10 +354,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Scopes/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588599933654" />
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588600890428">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588687290694">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600890428" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588687290694" />
     <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1588584723279">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -289,38 +378,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="806" y="279" key="FileChooserDialogImpl/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600505258" />
-    <state width="1149" height="244" key="GridCell.Tab.0.bottom" timestamp="1588600991126">
+    <state width="1464" height="325" key="GridCell.Tab.0.bottom" timestamp="1588688089283">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.0.bottom/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600991126" />
-    <state width="1149" height="244" key="GridCell.Tab.0.center" timestamp="1588600991126">
+    <state width="1464" height="325" key="GridCell.Tab.0.bottom/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089283" />
+    <state width="1464" height="325" key="GridCell.Tab.0.center" timestamp="1588688089282">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.0.center/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600991126" />
-    <state width="1149" height="244" key="GridCell.Tab.0.left" timestamp="1588600991126">
+    <state width="1464" height="325" key="GridCell.Tab.0.center/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089282" />
+    <state width="1464" height="325" key="GridCell.Tab.0.left" timestamp="1588688089282">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.0.left/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600991126" />
-    <state width="1149" height="244" key="GridCell.Tab.0.right" timestamp="1588600991126">
+    <state width="1464" height="325" key="GridCell.Tab.0.left/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089282" />
+    <state width="1464" height="325" key="GridCell.Tab.0.right" timestamp="1588688089283">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.0.right/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600991126" />
-    <state width="1293" height="412" key="GridCell.Tab.1.bottom" timestamp="1588512273939">
+    <state width="1464" height="325" key="GridCell.Tab.0.right/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089283" />
+    <state width="1466" height="141" key="GridCell.Tab.1.bottom" timestamp="1588686274021">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="412" key="GridCell.Tab.1.bottom/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588512273939" />
-    <state width="1293" height="412" key="GridCell.Tab.1.center" timestamp="1588512273938">
+    <state width="1466" height="141" key="GridCell.Tab.1.bottom/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
+    <state width="1466" height="141" key="GridCell.Tab.1.center" timestamp="1588686274021">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="412" key="GridCell.Tab.1.center/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588512273938" />
-    <state width="1293" height="412" key="GridCell.Tab.1.left" timestamp="1588512273938">
+    <state width="1466" height="141" key="GridCell.Tab.1.center/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
+    <state width="1466" height="141" key="GridCell.Tab.1.left" timestamp="1588686274021">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="412" key="GridCell.Tab.1.left/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588512273938" />
-    <state width="1293" height="412" key="GridCell.Tab.1.right" timestamp="1588512273938">
+    <state width="1466" height="141" key="GridCell.Tab.1.left/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
+    <state width="1466" height="141" key="GridCell.Tab.1.right" timestamp="1588686274021">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="412" key="GridCell.Tab.1.right/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588512273938" />
+    <state width="1466" height="141" key="GridCell.Tab.1.right/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
     <state x="691" y="223" width="703" height="603" key="NewModule_or_Project.wizard" timestamp="1588600542717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -341,13 +430,52 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588583615765" />
-    <state x="657" y="257" width="606" height="536" key="find.popup" timestamp="1588512314617">
+    <state x="92" y="92" width="1736" height="866" key="dock-window-1" timestamp="1588682211456">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="657" y="257" width="606" height="536" key="find.popup/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588512314617" />
+    <state x="92" y="92" width="1736" height="866" key="dock-window-1/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588682211456" />
+    <state x="657" y="257" width="606" height="536" key="find.popup" timestamp="1588687344588">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="657" y="257" width="606" height="536" key="find.popup/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588687344588" />
     <state x="342" y="220" key="new project wizard" timestamp="1588600494532">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="342" y="220" key="new project wizard/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600494532" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588686166766">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686166766" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/yitzi/video/core/web/template/Templates.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/yitzi/video/core/web/template/Templates.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/core-1.0-SNAPSHOT.jar!/org/yitzi/video/core/web/template/Templates.class</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/core-1.0-SNAPSHOT.jar!/org/yitzi/video/core/web/template/Templates.class</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/org/yitzi/video/api/resource/VideoUploaderResource.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

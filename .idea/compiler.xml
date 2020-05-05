@@ -8,10 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="api" />
+        <module name="www" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="www" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

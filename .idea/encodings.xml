@@ -5,5 +5,8 @@
     <file url="file://$PROJECT_DIR$/api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/src/main/config/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/src/main/resources" charset="UTF-8" />
   </component>
 </project>

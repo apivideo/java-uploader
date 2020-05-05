@@ -1,4 +1,6 @@
 <#-- @ftlvariable name="properties" type="java.util.Map<java.lang.String,java.lang.Object>" -->
+<#-- @ftlvariable name="config" type="java.util.Properties" -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +10,7 @@
 
 <body>
 <div class="container">
-    <form action="/api/videos/uploader" method="get">
+    <form action="${config.api_url}/api/videos/uploader" method="get">
         <ul>
             <li>
                 <label for="apiKey">API Key:</label>
