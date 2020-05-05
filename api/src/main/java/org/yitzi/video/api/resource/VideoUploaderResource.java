@@ -3,6 +3,7 @@ package org.yitzi.video.api.resource;
 import org.glassfish.jersey.media.multipart.FormDataBodyPart;
 import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 import org.glassfish.jersey.media.multipart.FormDataParam;
+import org.yitzi.video.core.EnvironmentProperties;
 import org.yitzi.video.core.access.VideoAccess;
 import org.yitzi.video.core.util.StringUtils;
 
@@ -12,14 +13,6 @@ import java.io.InputStream;
 
 @Path("/videos")
 public class VideoUploaderResource {
-
-//    @GET
-//    @Path("videos/upload-form/{videoID}")
-//    public String getUploadPage() {
-////      if videoID is valid
-////      return template
-//
-//    }
 
     @POST
     @Path("/{videoID}")
@@ -37,6 +30,6 @@ public class VideoUploaderResource {
         int adminID = videoAccess.upsertAdmin(apiKey);
         int placeHolderID = videoAccess.insertVideoPlaceHolder(url, customerEmail);
         videoAccess.insertAdminVideoRelationship(adminID, placeHolderID);
-        return url;
+        return EnvironmentProperties.getProperty("web_url") + "/upload/" + url;
     }
 }
