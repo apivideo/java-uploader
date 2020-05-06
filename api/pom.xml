@@ -12,12 +12,18 @@
     <packaging>war</packaging>
 
     <dependencies>
-
-
         <dependency>
             <groupId>org.yitzi.video</groupId>
             <artifactId>core</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.konghq/unirest-java -->
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>2.3.14</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
