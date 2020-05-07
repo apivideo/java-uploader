@@ -3,6 +3,7 @@ package org.yitzi.video.core.access;
 import org.skife.jdbi.v2.DBI;
 import org.skife.jdbi.v2.sqlobject.Bind;
 import org.skife.jdbi.v2.sqlobject.GetGeneratedKeys;
+import org.skife.jdbi.v2.sqlobject.SqlQuery;
 import org.skife.jdbi.v2.sqlobject.SqlUpdate;
 
 public class VideoAccess {
@@ -45,6 +46,10 @@ public class VideoAccess {
         @GetGeneratedKeys
         @SqlUpdate("INSERT INTO videos (unique_url, client_tag) VALUES (:url, :tag)")
         int insertVideoPlaceHolder(@Bind("url") String url, @Bind("tag") String tag);
+
+        //        language=SQL
+        @SqlQuery("SELECT * FROM videos WHERE unique_url = :uniqueURL")
+        VideoInput getVideoMetaFromURL(@Bind("uniqueURL") String uniqueURL);
 
         // language=SQL
         @SqlUpdate("INSERT INTO video_client_admin_relationships ( admin_id, video_id) VALUES (:adminID, :videoID)")

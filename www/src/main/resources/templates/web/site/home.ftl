@@ -18,7 +18,7 @@
             </li>
             <li>
                 <label for="mail">Customer E-mail:</label>
-                <input type="email" id="mail" name="customer_email">
+                <input type="email" id="mail" name="tag">
             </li>
             <li class="button">
                 <button type="submit">Submit</button>

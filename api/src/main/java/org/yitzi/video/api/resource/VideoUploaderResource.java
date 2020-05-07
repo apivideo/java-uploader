@@ -27,11 +27,11 @@ public class VideoUploaderResource {
 
     @GET
     @Path("/uploader")
-    public String getUploadURL(@QueryParam("api_key") String apiKey, @QueryParam("customer_email") String customerEmail) {
+    public String getUploadURL(@QueryParam("api_key") String apiKey, @QueryParam("tag") String tag) {
         String url = StringUtils.generateUniqueString();
         VideoAccess videoAccess = VideoAccess.getInstance();
         int adminID = videoAccess.upsertAdmin(apiKey);
-        int placeHolderID = videoAccess.insertVideoPlaceHolder(url, customerEmail);
+        int placeHolderID = videoAccess.insertVideoPlaceHolder(url, tag);
         videoAccess.insertAdminVideoRelationship(adminID, placeHolderID);
         return EnvironmentProperties.getProperty("web_url") + "/upload/" + url;
     }
