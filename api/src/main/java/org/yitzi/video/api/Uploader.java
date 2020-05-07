@@ -1,7 +1,4 @@
-package org.yitzi.video.api.apivideo;
-
-import org.yitzi.video.api.apivideo.domain.exception.ResponseException;
-import org.yitzi.video.api.apivideo.domain.video.VideoInput;
+package org.yitzi.video.api;
 
 import java.io.File;
 

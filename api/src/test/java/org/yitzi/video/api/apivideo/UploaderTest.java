@@ -1,6 +1,7 @@
 package org.yitzi.video.api.apivideo;
 
 import org.junit.jupiter.api.Test;
+import org.yitzi.video.api.Uploader;
 import org.yitzi.video.api.apivideo.domain.exception.ResponseException;
 
 class UploaderTest {
