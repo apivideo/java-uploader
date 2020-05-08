@@ -1,4 +1,6 @@
 org\yitzi\video\www\web\site\HomePageService.class
 org\yitzi\video\www\web\site\HomePageContent.class
 org\yitzi\video\www\application\WebsiteView.class
+org\yitzi\video\www\web\site\UploadPageContent.class
 org\yitzi\video\www\application\UploaderWebApplication.class
+org\yitzi\video\www\web\site\UploadPageService.class

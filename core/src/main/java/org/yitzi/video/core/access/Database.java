@@ -1,6 +1,7 @@
 package org.yitzi.video.core.access;
 
-import org.skife.jdbi.v2.DBI;
+import org.jdbi.v3.core.Jdbi;
+import org.jdbi.v3.sqlobject.SqlObjectPlugin;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -10,12 +11,16 @@ import javax.sql.DataSource;
 public class Database {
 
     private static DataSource postgresDataSource;
+    private static Jdbi jdbi;
 
-    public static DBI getDBI() {
-        if (postgresDataSource == null) {
+
+    static Jdbi getJdbi() {
+        if (jdbi == null) {
             lookupDataSource();
+            jdbi = Jdbi.create(postgresDataSource);
+            jdbi.installPlugin(new SqlObjectPlugin());
         }
-        return new DBI(postgresDataSource);
+        return jdbi;
     }
 
     private static void lookupDataSource() {

@@ -58,6 +58,16 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="dev" />
+      </list>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="test" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1bOlisQeZUlHkxHE4dvsjgadDoo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -74,9 +84,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/www" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15429688" />
-    <property name="project.structure.side.proportion" value="0.20578034" />
+    <property name="project.structure.side.proportion" value="0.37116563" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
@@ -84,10 +94,27 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\emesd\Documents\Github\jvideo\core\src\main\java" />
       <recent name="D:\emesd\Documents\Github\jvideo\www\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.www">
+  <component name="RunManager" selected="JUnit.UploaderTest.upload">
+    <configuration name="UploaderTest.upload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yitzi.video.api.apivideo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yitzi.video.api.apivideo" />
+      <option name="MAIN_CLASS_NAME" value="org.yitzi.video.api.apivideo.UploaderTest" />
+      <option name="METHOD_NAME" value="upload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
@@ -300,7 +327,13 @@
     <list>
       <item itemvalue="Tomcat Server.www" />
       <item itemvalue="Tomcat Server.api" />
+      <item itemvalue="JUnit.UploaderTest.upload" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UploaderTest.upload" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -312,11 +345,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -378,45 +406,54 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="806" y="279" key="FileChooserDialogImpl/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600505258" />
-    <state width="1464" height="325" key="GridCell.Tab.0.bottom" timestamp="1588688089283">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="226" key="GridCell.Tab.0.bottom" timestamp="1588936717126">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588936717126" />
     <state width="1464" height="325" key="GridCell.Tab.0.bottom/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089283" />
-    <state width="1464" height="325" key="GridCell.Tab.0.center" timestamp="1588688089282">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="226" key="GridCell.Tab.0.center" timestamp="1588936717126">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="226" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588936717126" />
     <state width="1464" height="325" key="GridCell.Tab.0.center/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089282" />
-    <state width="1464" height="325" key="GridCell.Tab.0.left" timestamp="1588688089282">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="226" key="GridCell.Tab.0.left" timestamp="1588936717126">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="226" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588936717126" />
     <state width="1464" height="325" key="GridCell.Tab.0.left/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089282" />
-    <state width="1464" height="325" key="GridCell.Tab.0.right" timestamp="1588688089283">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="226" key="GridCell.Tab.0.right" timestamp="1588936717126">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="226" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588936717126" />
     <state width="1464" height="325" key="GridCell.Tab.0.right/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089283" />
-    <state width="1466" height="141" key="GridCell.Tab.1.bottom" timestamp="1588686274021">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="445" key="GridCell.Tab.1.bottom" timestamp="1588935425171">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="445" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588935425171" />
     <state width="1466" height="141" key="GridCell.Tab.1.bottom/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
-    <state width="1466" height="141" key="GridCell.Tab.1.center" timestamp="1588686274021">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="445" key="GridCell.Tab.1.center" timestamp="1588935425171">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="445" key="GridCell.Tab.1.center/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588935425171" />
     <state width="1466" height="141" key="GridCell.Tab.1.center/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
-    <state width="1466" height="141" key="GridCell.Tab.1.left" timestamp="1588686274021">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="445" key="GridCell.Tab.1.left" timestamp="1588935425171">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="445" key="GridCell.Tab.1.left/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588935425171" />
     <state width="1466" height="141" key="GridCell.Tab.1.left/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
-    <state width="1466" height="141" key="GridCell.Tab.1.right" timestamp="1588686274021">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="445" key="GridCell.Tab.1.right" timestamp="1588935425171">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1877" height="445" key="GridCell.Tab.1.right/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588935425171" />
     <state width="1466" height="141" key="GridCell.Tab.1.right/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
     <state x="691" y="223" width="703" height="603" key="NewModule_or_Project.wizard" timestamp="1588600542717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="691" y="223" width="703" height="603" key="NewModule_or_Project.wizard/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600542717" />
-    <state x="440" y="99" width="1173" height="852" key="SettingsEditor" timestamp="1588600910309">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="440" y="102" width="1173" height="852" key="SettingsEditor" timestamp="1588936533654">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="440" y="102" key="SettingsEditor/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588936533654" />
     <state x="440" y="99" width="1173" height="852" key="SettingsEditor/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600910309" />
     <state x="776" y="302" key="chooseDestDirectoryDialog" timestamp="1588584658467">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -434,17 +471,19 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="dock-window-1/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588682211456" />
-    <state x="657" y="257" width="606" height="536" key="find.popup" timestamp="1588687344588">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="657" y="264" width="638" height="552" key="find.popup" timestamp="1588936519641">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="657" y="264" width="638" height="552" key="find.popup/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588936519641" />
     <state x="657" y="257" width="606" height="536" key="find.popup/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588687344588" />
     <state x="342" y="220" key="new project wizard" timestamp="1588600494532">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="342" y="220" key="new project wizard/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600494532" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588686166766">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="623" y="233" width="672" height="698" key="search.everywhere.popup" timestamp="1588935237681">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="623" y="233" width="672" height="698" key="search.everywhere.popup/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588935237681" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686166766" />
   </component>
   <component name="XDebuggerManager">
@@ -474,6 +513,54 @@
           <url>file://$PROJECT_DIR$/api/src/main/java/org/yitzi/video/api/resource/VideoUploaderResource.java</url>
           <line>34</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/video/api/java/sdk/infrastructure/unirest/account/AccountClient.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/video/api/java/sdk/infrastructure/unirest/caption/CaptionClient.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/video/api/java/sdk/infrastructure/unirest/account/AccountDeserializer.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/video/api/java/sdk/ClientFactory.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/video/api/java/sdk/ClientFactory.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/video/api/java/sdk/infrastructure/unirest/video/VideoInputSerializer.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/video/api/java/sdk/infrastructure/unirest/serializer/JsonSerializer.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/video/api/java/sdk/infrastructure/unirest/video/VideoDeserializer.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/core/src/main/java/video/api/java/sdk/infrastructure/unirest/serializer/JsonSerializer.java</url>
+          <line>10</line>
+          <properties class="video.api.java.sdk.infrastructure.unirest.serializer.JsonSerializer" method="serialize">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

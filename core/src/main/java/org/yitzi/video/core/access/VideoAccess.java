@@ -1,11 +1,11 @@
 package org.yitzi.video.core.access;
 
-import org.skife.jdbi.v2.DBI;
-import org.skife.jdbi.v2.sqlobject.Bind;
-import org.skife.jdbi.v2.sqlobject.GetGeneratedKeys;
-import org.skife.jdbi.v2.sqlobject.SqlQuery;
-import org.skife.jdbi.v2.sqlobject.SqlUpdate;
-import video.api.java.sdk.domain.video.VideoInput;
+import org.jdbi.v3.core.Jdbi;
+import org.jdbi.v3.sqlobject.customizer.Bind;
+import org.jdbi.v3.sqlobject.statement.GetGeneratedKeys;
+import org.jdbi.v3.sqlobject.statement.SqlQuery;
+import org.jdbi.v3.sqlobject.statement.SqlUpdate;
+import video.api.java.sdk.domain.video.Video;
 
 public class VideoAccess {
 
@@ -13,8 +13,8 @@ public class VideoAccess {
     private VideoDAO videoDAO;
 
     public VideoAccess() {
-        DBI dbi = Database.getDBI();
-        videoDAO = dbi.onDemand(VideoDAO.class);
+        Jdbi jdbi = Database.getJdbi();
+        videoDAO = jdbi.onDemand(VideoDAO.class);
     }
 
     public static synchronized VideoAccess getInstance() {
@@ -50,7 +50,7 @@ public class VideoAccess {
 
         //        language=SQL
         @SqlQuery("SELECT * FROM videos WHERE unique_url = :uniqueURL")
-        VideoInput getVideoMetaFromURL(@Bind("uniqueURL") String uniqueURL);
+        Video getVideoMetaFromURL(@Bind("uniqueURL") String uniqueURL);
 
         // language=SQL
         @SqlUpdate("INSERT INTO video_client_admin_relationships ( admin_id, video_id) VALUES (:adminID, :videoID)")
