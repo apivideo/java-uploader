@@ -17,12 +17,6 @@
             <artifactId>core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections</artifactId>
-            <version>0.9.11</version>
-        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -35,27 +29,18 @@
             <version>5.4.2</version>
             <scope>test</scope>
         </dependency>
+
+
+
+
     </dependencies>
 
     <profiles>
         <profile>
-            <id>dev</id>
+            <id>test</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <build>
-                <resources>
-                    <resource>
-                        <directory>src/main/resources</directory>
-                    </resource>
-                    <resource>
-                        <directory>src/main/config/dev</directory>
-                    </resource>
-                </resources>
-            </build>
-        </profile>
-        <profile>
-            <id>test</id>
             <build>
                 <resources>
                     <resource>
@@ -76,6 +61,19 @@
                     </resource>
                     <resource>
                         <directory>src/main/config/prod</directory>
+                    </resource>
+                </resources>
+            </build>
+        </profile>
+        <profile>
+            <id>dev</id>
+            <build>
+                <resources>
+                    <resource>
+                        <directory>src/main/resources</directory>
+                    </resource>
+                    <resource>
+                        <directory>src/main/config/dev</directory>
                     </resource>
                 </resources>
             </build>

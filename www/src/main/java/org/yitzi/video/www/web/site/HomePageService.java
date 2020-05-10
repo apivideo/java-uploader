@@ -1,7 +1,5 @@
 package org.yitzi.video.www.web.site;
 
-import org.yitzi.video.core.EnvironmentProperties;
-
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;

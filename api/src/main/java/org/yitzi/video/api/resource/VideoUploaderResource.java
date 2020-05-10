@@ -1,38 +1,45 @@
 package org.yitzi.video.api.resource;
 
-import org.glassfish.jersey.media.multipart.FormDataBodyPart;
 import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 import org.glassfish.jersey.media.multipart.FormDataParam;
+import org.yitzi.video.api.domain.GetFileFromInputStream;
 import org.yitzi.video.api.domain.UploadToAPIVideo;
+import org.yitzi.video.api.model.BaseResponse;
+import org.yitzi.video.api.model.VideoGroupParams;
 import org.yitzi.video.core.EnvironmentProperties;
 import org.yitzi.video.core.access.VideoAccess;
 import org.yitzi.video.core.util.StringUtils;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import java.io.File;
 import java.io.InputStream;
 
-@Path("/videos")
+@Path("/api/videos")
 public class VideoUploaderResource {
 
     UploadToAPIVideo uploadToAPIVideo = new UploadToAPIVideo();
+    GetFileFromInputStream fileFromInputStream = new GetFileFromInputStream();
 
     @POST
     @Path("/{uniqueURL}")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
-    public void uploadVideo(@FormDataParam("file") InputStream file, @FormDataParam("file") FormDataBodyPart fileMeta,
+    public void uploadVideo(@FormDataParam("file") InputStream file,
                             @FormDataParam("file") FormDataContentDisposition fileDetail, @PathParam("uniqueURL") String uniqueURL) {
-        uploadToAPIVideo.UploadToAPIVideo(uniqueURL);
+        File uploadedFile = this.fileFromInputStream.getFileFromInputStream(file, fileDetail.getFileName());
+        uploadToAPIVideo.uploadToAPIVideo(uniqueURL, uploadedFile.getPath());
     }
 
-    @GET
+    @POST
     @Path("/uploader")
-    public String getUploadURL(@QueryParam("api_key") String apiKey, @QueryParam("tag") String tag) {
+    @Produces(MediaType.APPLICATION_JSON)
+    public BaseResponse getUploadURL(VideoGroupParams params) {
         String url = StringUtils.generateUniqueString();
         VideoAccess videoAccess = VideoAccess.getInstance();
-        int adminID = videoAccess.upsertAdmin(apiKey);
-        int placeHolderID = videoAccess.insertVideoPlaceHolder(url, tag);
+        int adminID = videoAccess.upsertAdmin(params.getApiKey());
+        int placeHolderID = videoAccess.insertVideoPlaceHolder(url, params.getTag());
         videoAccess.insertAdminVideoRelationship(adminID, placeHolderID);
-        return EnvironmentProperties.getProperty("web_url") + "/upload/" + url;
+        String webUrl = EnvironmentProperties.getProperty("web_url") + "/upload/" + url;
+        return new BaseResponse(true, webUrl);
     }
 }

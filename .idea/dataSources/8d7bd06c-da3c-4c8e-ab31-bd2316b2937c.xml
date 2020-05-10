@@ -3,6 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
     <root id="1">
       <ServerVersion>9.6.10</ServerVersion>
+      <StartupTime>1589103553</StartupTime>
     </root>
     <database id="2" parent="1" name="bl">
       <ObjectId>33010</ObjectId>
@@ -52,8 +53,11 @@
     <database id="13" parent="1" name="video_api">
       <ObjectId>168248</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>609181</IntrospectionStateNumber>
+      <IntrospectionStateNumber>609229</IntrospectionStateNumber>
       <Current>1</Current>
+      <Relations>sequence|table|168299|168301|1
+sequence|table|168312|168314|1
+</Relations>
     </database>
     <role id="14" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
@@ -83,7 +87,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>340</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>609182</IntrospectionStateNumber>
+      <IntrospectionStateNumber>609230</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="19" parent="13" name="btree">
@@ -142,5 +146,169 @@
       <SchemaName>pg_catalog</SchemaName>
       <SchemaId>11</SchemaId>
     </extension>
+    <sequence id="26" parent="18" name="admins_id_seq">
+      <ObjectId>168299</ObjectId>
+      <StateNumber>609220</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="27" parent="18" name="video_group_id_seq">
+      <ObjectId>168312</ObjectId>
+      <StateNumber>609221</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="28" parent="18" name="admins">
+      <ObjectId>168301</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>609228</StateNumber>
+    </table>
+    <table id="29" parent="18" name="video_client_admin_relationships">
+      <ObjectId>168340</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>609228</StateNumber>
+    </table>
+    <table id="30" parent="18" name="video_group">
+      <ObjectId>168314</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>609228</StateNumber>
+    </table>
+    <column id="31" parent="28" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609220</StateNumber>
+      <DefaultExpression>nextval(&apos;admins_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="32" parent="28" name="api_key">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609220</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="33" parent="28" name="admins_pkey">
+      <ObjectId>168308</ObjectId>
+      <StateNumber>609220</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="34" parent="28" name="admins_api_key_key">
+      <ObjectId>168310</ObjectId>
+      <StateNumber>609220</StateNumber>
+      <ColNames>api_key</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="35" parent="28" name="admins_pkey">
+      <ObjectId>168309</ObjectId>
+      <StateNumber>609220</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>admins_pkey</UnderlyingIndexName>
+    </key>
+    <key id="36" parent="28" name="admins_api_key_key">
+      <ObjectId>168311</ObjectId>
+      <StateNumber>609220</StateNumber>
+      <ColNames>api_key</ColNames>
+      <UnderlyingIndexName>admins_api_key_key</UnderlyingIndexName>
+    </key>
+    <column id="37" parent="29" name="admin_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609228</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="38" parent="29" name="video_group_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609228</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="39" parent="29" name="video_client_admin_relationships_video_group_id_key">
+      <ObjectId>168343</ObjectId>
+      <StateNumber>609228</StateNumber>
+      <ColNames>video_group_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="29" name="video_client_admin_relationships_video_group_id_key">
+      <ObjectId>168344</ObjectId>
+      <StateNumber>609228</StateNumber>
+      <ColNames>video_group_id</ColNames>
+      <UnderlyingIndexName>video_client_admin_relationships_video_group_id_key</UnderlyingIndexName>
+    </key>
+    <foreign-key id="41" parent="29" name="video_client_admin_relationships_admin_id_fkey">
+      <ObjectId>168345</ObjectId>
+      <StateNumber>609228</StateNumber>
+      <ColNames>admin_id</ColNames>
+      <RefTableId>168301</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>admins</RefTableName>
+      <RefKeyName>admins_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="42" parent="29" name="video_client_admin_relationships_video_group_id_fkey">
+      <ObjectId>168350</ObjectId>
+      <StateNumber>609228</StateNumber>
+      <ColNames>video_group_id</ColNames>
+      <RefTableId>168314</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>video_group</RefTableName>
+      <RefKeyName>video_group_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="43" parent="30" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609221</StateNumber>
+      <DefaultExpression>nextval(&apos;video_group_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="44" parent="30" name="unique_url">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609221</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="45" parent="30" name="client_tag">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609221</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="46" parent="30" name="video_group_pkey">
+      <ObjectId>168321</ObjectId>
+      <StateNumber>609221</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="47" parent="30" name="video_group_unique_url_key">
+      <ObjectId>168323</ObjectId>
+      <StateNumber>609221</StateNumber>
+      <ColNames>unique_url</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="48" parent="30" name="video_group_pkey">
+      <ObjectId>168322</ObjectId>
+      <StateNumber>609221</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>video_group_pkey</UnderlyingIndexName>
+    </key>
+    <key id="49" parent="30" name="video_group_unique_url_key">
+      <ObjectId>168324</ObjectId>
+      <StateNumber>609221</StateNumber>
+      <ColNames>unique_url</ColNames>
+      <UnderlyingIndexName>video_group_unique_url_key</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
