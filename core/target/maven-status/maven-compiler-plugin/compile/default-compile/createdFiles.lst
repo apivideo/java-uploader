@@ -1,0 +1,10 @@
+org\yitzi\video\core\access\mappers\VideoPlaceHolderMapper.class
+org\yitzi\video\core\access\VideoAccess$VideoDAO.class
+org\yitzi\video\core\EnvironmentProperties.class
+org\yitzi\video\core\util\DatetimeConverter.class
+org\yitzi\video\core\web\template\Templates.class
+org\yitzi\video\core\model\VideoGroup.class
+org\yitzi\video\core\util\StringUtils.class
+org\yitzi\video\core\access\VideoAccess.class
+org\yitzi\video\core\web\template\TemplatedContent.class
+org\yitzi\video\core\access\Database.class

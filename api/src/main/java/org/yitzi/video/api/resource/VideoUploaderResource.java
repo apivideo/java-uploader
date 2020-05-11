@@ -28,6 +28,7 @@ public class VideoUploaderResource {
                             @FormDataParam("file") FormDataContentDisposition fileDetail, @PathParam("uniqueURL") String uniqueURL) {
         File uploadedFile = this.fileFromInputStream.getFileFromInputStream(file, fileDetail.getFileName());
         uploadToAPIVideo.uploadToAPIVideo(uniqueURL, uploadedFile.getPath());
+//        TODO indicate failure i.e. where admin is invalid
     }
 
     @POST
