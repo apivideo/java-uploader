@@ -6,7 +6,122 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac03ce78-3312-4aed-b03c-008f10bd7b7a" name="Default Changelist" comment="" />
+    <list default="true" id="ac03ce78-3312-4aed-b03c-008f10bd7b7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/ROOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/classes/org/yitzi/video/api/resource/VideoUploaderResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/classes/org/yitzi/video/api/resource/VideoUploaderResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT/WEB-INF/lib/core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/org/yitzi/video/api/resource/VideoUploaderResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/org/yitzi/video/api/resource/VideoUploaderResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/ROOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/www/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/org/yitzi/video/www/application/UploaderWebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/org/yitzi/video/www/application/WebsiteView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/org/yitzi/video/www/web/site/HomePageContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/org/yitzi/video/www/web/site/HomePageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/org/yitzi/video/www/web/site/UploadPageContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/org/yitzi/video/www/web/site/UploadPageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/templates/web/includes/meta.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/templates/web/includes/scripts.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/templates/web/site/home.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/classes/templates/web/site/upload.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/antlr-runtime-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/core-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/expiringmap-0.5.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/gson-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/guava-20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/hk2-api-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/hk2-locator-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/hk2-utils-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/httpasyncclient-4.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/httpcore-nio-4.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/httpmime-4.5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.21.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jdbi3-core-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jdbi3-sqlobject-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-2.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-2.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-2.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-core-2.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jersey-hk2-2.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-jaxb-2.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-multipart-2.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/jersey-server-2.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/json-20180813.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/mimepull-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/postgresql-9.1-901-1.jdbc4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/reflections-0.9.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/stringtemplate-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/unirest-java-2.3.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/moonbold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/moonbold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/moonlight-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/fonts/moonlight-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/app-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/balloon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/bigmind-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/close-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/colored-bars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/delete-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/dropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/edit-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/export-to-excel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/export-to-ppt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/google-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/homepage-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/pending.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/published.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/reload-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/search-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/search-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/sent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/shopping-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/images/upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/js/ideamap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/js/jqcloud.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/js/jquery.modal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/js/js.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/js/pickdate/legacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/js/pickdate/picker.date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/target/www-1.0-SNAPSHOT/js/pickdate/picker.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,13 +220,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/api/src/main/java/org" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/src/main/webapp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/java-getting-started" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.37116563" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -381,30 +496,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="video_api@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="video_api@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@175d3ee7" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="video_api@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@521bf151" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="video_api@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@38773a3c" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -430,7 +521,11 @@
       <workItem from="1589119501383" duration="7393000" />
       <workItem from="1589135167636" duration="5476000" />
       <workItem from="1589190684049" duration="6000" />
-      <workItem from="1589190790231" duration="8522000" />
+      <workItem from="1589190790231" duration="10757000" />
+      <workItem from="1589284892121" duration="1416000" />
+      <workItem from="1589286330758" duration="12000" />
+      <workItem from="1589288633301" duration="796000" />
+      <workItem from="1589289673129" duration="2010000" />
     </task>
     <servers />
   </component>
@@ -450,9 +545,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="144" key="#api/0.0.1920.1080@0.0.1920.1080" timestamp="1589124546735" />
-    <state x="73" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589199319709">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="73" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589289991962">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="73" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.-192.1920.1050@0.0.1920.1050" timestamp="1589289991962" />
     <state x="73" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589199319709" />
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588687290694" />
     <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1589121042086">
@@ -497,67 +593,74 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="758" y="242" key="ExecutionTargetDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589105568324" />
-    <state x="806" y="279" key="FileChooserDialogImpl" timestamp="1588600505258">
+    <state x="806" y="279" key="FileChooserDialogImpl" timestamp="1589284986096">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="806" y="279" key="FileChooserDialogImpl/0.0.1920.1050/1920.-192.1920.1050@0.0.1920.1050" timestamp="1589284986096" />
+    <state x="806" y="287" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1589210289348" />
     <state x="806" y="279" key="FileChooserDialogImpl/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600505258" />
-    <state width="1676" height="349" key="GridCell.Tab.0.bottom" timestamp="1589199051921">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1397" height="157" key="GridCell.Tab.0.bottom" timestamp="1589291833186">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1397" height="157" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.-192.1920.1050@0.0.1920.1050" timestamp="1589291833186" />
     <state width="1877" height="445" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588937280240" />
-    <state width="1676" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589199051921" />
+    <state width="1877" height="452" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589211064267" />
     <state width="1464" height="325" key="GridCell.Tab.0.bottom/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089283" />
-    <state width="1676" height="349" key="GridCell.Tab.0.center" timestamp="1589199051921">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1397" height="157" key="GridCell.Tab.0.center" timestamp="1589291833186">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1397" height="157" key="GridCell.Tab.0.center/0.0.1920.1050/1920.-192.1920.1050@0.0.1920.1050" timestamp="1589291833186" />
     <state width="1877" height="445" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588937280239" />
-    <state width="1676" height="349" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589199051921" />
+    <state width="1877" height="452" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589211064267" />
     <state width="1464" height="325" key="GridCell.Tab.0.center/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089282" />
-    <state width="1676" height="349" key="GridCell.Tab.0.left" timestamp="1589199051921">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1397" height="157" key="GridCell.Tab.0.left" timestamp="1589291833186">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1397" height="157" key="GridCell.Tab.0.left/0.0.1920.1050/1920.-192.1920.1050@0.0.1920.1050" timestamp="1589291833186" />
     <state width="1877" height="445" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588937280239" />
-    <state width="1676" height="349" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589199051921" />
+    <state width="1877" height="452" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589211064267" />
     <state width="1464" height="325" key="GridCell.Tab.0.left/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089282" />
-    <state width="1676" height="349" key="GridCell.Tab.0.right" timestamp="1589199051921">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1397" height="157" key="GridCell.Tab.0.right" timestamp="1589291833186">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1397" height="157" key="GridCell.Tab.0.right/0.0.1920.1050/1920.-192.1920.1050@0.0.1920.1050" timestamp="1589291833186" />
     <state width="1877" height="445" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588937280240" />
-    <state width="1676" height="349" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589199051921" />
+    <state width="1877" height="452" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589211064267" />
     <state width="1464" height="325" key="GridCell.Tab.0.right/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588688089283" />
-    <state width="1676" height="349" key="GridCell.Tab.1.bottom" timestamp="1589198947931">
+    <state width="963" height="349" key="GridCell.Tab.1.bottom" timestamp="1589211062093">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="445" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588937280240" />
-    <state width="1676" height="349" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589198947931" />
+    <state width="963" height="349" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589211062093" />
     <state width="1466" height="141" key="GridCell.Tab.1.bottom/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
-    <state width="1676" height="349" key="GridCell.Tab.1.center" timestamp="1589198947931">
+    <state width="963" height="349" key="GridCell.Tab.1.center" timestamp="1589211062093">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="445" key="GridCell.Tab.1.center/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588937280240" />
-    <state width="1676" height="349" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589198947931" />
+    <state width="963" height="349" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589211062093" />
     <state width="1466" height="141" key="GridCell.Tab.1.center/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
-    <state width="1676" height="349" key="GridCell.Tab.1.left" timestamp="1589198947931">
+    <state width="963" height="349" key="GridCell.Tab.1.left" timestamp="1589211062093">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="445" key="GridCell.Tab.1.left/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588937280240" />
-    <state width="1676" height="349" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589198947931" />
+    <state width="963" height="349" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589211062093" />
     <state width="1466" height="141" key="GridCell.Tab.1.left/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
-    <state width="1676" height="349" key="GridCell.Tab.1.right" timestamp="1589198947931">
+    <state width="963" height="349" key="GridCell.Tab.1.right" timestamp="1589211062093">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="445" key="GridCell.Tab.1.right/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588937280240" />
-    <state width="1676" height="349" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589198947931" />
+    <state width="963" height="349" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589211062093" />
     <state width="1466" height="141" key="GridCell.Tab.1.right/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588686274021" />
     <state x="691" y="223" width="703" height="603" key="NewModule_or_Project.wizard" timestamp="1588600542717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="691" y="223" width="703" height="603" key="NewModule_or_Project.wizard/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600542717" />
-    <state x="440" y="102" width="1173" height="852" key="SettingsEditor" timestamp="1589135367812">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="440" y="99" width="1173" height="852" key="SettingsEditor" timestamp="1589286249033">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.-192.1920.1050@0.0.1920.1050" timestamp="1589286249033" />
     <state x="440" y="102" key="SettingsEditor/0.0.1920.1080/1920.-192.1920.1080@0.0.1920.1080" timestamp="1588936533654" />
-    <state x="440" y="102" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1589135367812" />
+    <state x="440" y="102" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1589210305584" />
     <state x="440" y="99" width="1173" height="852" key="SettingsEditor/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588600910309" />
     <state x="776" y="302" key="chooseDestDirectoryDialog" timestamp="1588584658467">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -576,9 +679,10 @@
     </state>
     <state x="92" y="95" width="1736" height="891" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589122949775" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.-157.1920.1050/-1920.-157.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1588583615765" />
-    <state x="655" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1589190804413">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="655" y="353" key="com.intellij.ide.util.TipDialog" timestamp="1589289701423">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="655" y="353" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.-192.1920.1050@0.0.1920.1050" timestamp="1589289701423" />
     <state x="655" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589190804413" />
     <state x="92" y="92" width="1736" height="866" key="dock-window-1" timestamp="1588682211456">
       <screen x="0" y="0" width="1920" height="1050" />
