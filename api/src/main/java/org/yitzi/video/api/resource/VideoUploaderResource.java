@@ -14,6 +14,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.io.File;
 import java.io.InputStream;
+import java.net.URISyntaxException;
 
 @Path("/api/videos")
 public class VideoUploaderResource {
@@ -25,7 +26,7 @@ public class VideoUploaderResource {
     @Path("/{uniqueURL}")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
     public void uploadVideo(@FormDataParam("file") InputStream file,
-                            @FormDataParam("file") FormDataContentDisposition fileDetail, @PathParam("uniqueURL") String uniqueURL) {
+                            @FormDataParam("file") FormDataContentDisposition fileDetail, @PathParam("uniqueURL") String uniqueURL) throws URISyntaxException {
         File uploadedFile = this.fileFromInputStream.getFileFromInputStream(file, fileDetail.getFileName());
         uploadToAPIVideo.uploadToAPIVideo(uniqueURL, uploadedFile.getPath());
 //        TODO indicate failure i.e. where admin is invalid
@@ -34,7 +35,7 @@ public class VideoUploaderResource {
     @POST
     @Path("/uploader")
     @Produces(MediaType.APPLICATION_JSON)
-    public BaseResponse getUploadURL(VideoGroupParams params) {
+    public BaseResponse getUploadURL(VideoGroupParams params) throws URISyntaxException {
         String url = StringUtils.generateUniqueString();
         VideoAccess videoAccess = VideoAccess.getInstance();
         int adminID = videoAccess.upsertAdmin(params.getApiKey());

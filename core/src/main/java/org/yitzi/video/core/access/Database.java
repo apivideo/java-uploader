@@ -3,22 +3,16 @@ package org.yitzi.video.core.access;
 import org.jdbi.v3.core.Jdbi;
 import org.jdbi.v3.sqlobject.SqlObjectPlugin;
 
-import javax.naming.Context;
-import javax.naming.InitialContext;
 import javax.sql.DataSource;
+import java.net.URISyntaxException;
 
 public class Database {
-
-    private static final String DB_URL = "jdbc:postgresql://localhost:5432/video_api";
-    private static final String DB_USER = "postgres";
-    private static final String DB_PASSWORD = "sifra123";
 
     private static DataSource postgresDataSource;
     private static Jdbi jdbi;
 
-    static Jdbi getJdbi() {
+    static Jdbi getJdbi() throws URISyntaxException {
         if (jdbi == null) {
-            lookupDataSource();
             if (postgresDataSource != null) {
                 jdbi = Jdbi.create(postgresDataSource);
             }
@@ -30,19 +24,11 @@ public class Database {
         return jdbi;
     }
 
-    private static void lookupDataSource() {
-        try {
-            Context envCtx = (Context) new InitialContext().lookup("java:comp/env");
-            postgresDataSource = (DataSource) envCtx.lookup("jdbc/APIVideoDB");
-        }
-        catch (Exception ignored) {
-        }
-    }
-
-    private static Jdbi getDBConnection() {
+    private static Jdbi getDBConnection() throws URISyntaxException {
+        String dbUrl = System.getenv("JDBC_DATABASE_URL");
         try {
             Class.forName("org.postgresql.Driver");
-            return Jdbi.create(DB_URL, DB_USER, DB_PASSWORD);
+            return Jdbi.create(dbUrl);
         }
         catch (ClassNotFoundException e) {
             e.printStackTrace();

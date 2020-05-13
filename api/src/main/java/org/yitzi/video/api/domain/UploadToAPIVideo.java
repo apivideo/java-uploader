@@ -5,9 +5,11 @@ import org.yitzi.video.core.access.VideoAccess;
 import org.yitzi.video.core.model.VideoGroup;
 import video.api.java.sdk.domain.exception.ResponseException;
 
+import java.net.URISyntaxException;
+
 public class UploadToAPIVideo {
 
-    public void uploadToAPIVideo(String url, String pathName) {
+    public void uploadToAPIVideo(String url, String pathName) throws URISyntaxException {
         VideoAccess videoAccess = VideoAccess.getInstance();
         VideoGroup videoGroup = videoAccess.getVideoPlaceHolderFromURL(url);
         String apiKey = videoAccess.getApiKey(videoGroup.getId());

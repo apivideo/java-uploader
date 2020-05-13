@@ -9,17 +9,19 @@ import org.jdbi.v3.sqlobject.statement.SqlUpdate;
 import org.yitzi.video.core.access.mappers.VideoPlaceHolderMapper;
 import org.yitzi.video.core.model.VideoGroup;
 
+import java.net.URISyntaxException;
+
 public class VideoAccess {
 
     private static VideoAccess instance;
     private VideoDAO videoDAO;
 
-    public VideoAccess() {
+    public VideoAccess() throws URISyntaxException {
         Jdbi jdbi = Database.getJdbi();
         videoDAO = jdbi.onDemand(VideoDAO.class);
     }
 
-    public static synchronized VideoAccess getInstance() {
+    public static synchronized VideoAccess getInstance() throws URISyntaxException {
         if (instance == null) {
             instance = new VideoAccess();
         }
